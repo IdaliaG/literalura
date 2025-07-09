@@ -62,7 +62,7 @@ public class ConsoleService {
         String titulo = scanner.nextLine();
 
         try {
-            // 1. Buscar en la API (esto es lo importante)
+            // Busca en la API
             Book libro = bookService.searchAndSaveBook(titulo);
 
 
@@ -74,10 +74,10 @@ public class ConsoleService {
                 return;
             }
 
-            // 2. Convertir y guardar en tu base de datos
+           
 
 
-            // 3. Mostrar resultados
+            // Muestra los resultados
             System.out.println("\n=== LIBRO ENCONTRADO ===");
             System.out.println("Título: " + libro.getTitle());
             System.out.println("Autor: " + libro.getAuthor().getName());
