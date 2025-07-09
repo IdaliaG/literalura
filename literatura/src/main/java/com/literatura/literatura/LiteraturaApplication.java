@@ -12,7 +12,7 @@ public class LiteraturaApplication implements CommandLineRunner {
 
 	private final ConsoleService consoleService;
 
-	// Inyectamos el servicio mediante constructor
+	// Inyecta el servicio mediante el constructor
 	public LiteraturaApplication(ConsoleService consoleService) {
 		this.consoleService = consoleService;
 	}
