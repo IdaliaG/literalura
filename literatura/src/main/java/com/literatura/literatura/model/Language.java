@@ -12,7 +12,7 @@ public class Language {
     private Long id;
     private String code;
 
-    // Constructor vacío
+    
     public Language() {
     }
 
